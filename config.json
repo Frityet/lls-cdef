@@ -1,0 +1,8 @@
+{
+    // Name of the addon
+    "name": "LuaLanguageServer CDef type generator",
+
+    // Lua string patterns to look for in a workspace.
+    // If detected, this addon will be recommended to enable
+    "words": [ "ffi.cdef[%s%(\"']+MAA[%)\"']", "cdef[%s%(\"']+MAA[%)\"']" ],
+}
